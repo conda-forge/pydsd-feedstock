@@ -16,14 +16,15 @@ probes, and drop size distributions. It is pure python.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pydsd-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pydsd-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pydsd-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pydsd-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pydsd-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pydsd-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pydsd/badges/version.svg)](https://anaconda.org/conda-forge/pydsd)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pydsd/badges/downloads.svg)](https://anaconda.org/conda-forge/pydsd)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pydsd-green.svg)](https://anaconda.org/conda-forge/pydsd) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pydsd.svg)](https://anaconda.org/conda-forge/pydsd) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pydsd.svg)](https://anaconda.org/conda-forge/pydsd) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pydsd.svg)](https://anaconda.org/conda-forge/pydsd) |
 
 Installing pydsd
 ================
