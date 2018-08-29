@@ -1,6 +1,6 @@
 {% set name = "PyDSD" %}
-{% set version = "1.0.3.3" %}
-{% set sha256 = "1a0de55ad722a52a07635ce18c44edfca87053f11310e2e306b2248e93ffccb3" %}
+{% set version = "1.0.4" %}
+{% set sha256 = "dbcd2cd224b2e709af1de177fbe180c930d6aaa142fbc0d840c538e24025f218" %}
 
 package:
   name: {{ name|lower }}
