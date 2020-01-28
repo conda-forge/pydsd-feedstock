@@ -1,6 +1,6 @@
 {% set name = "PyDSD" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "dbcd2cd224b2e709af1de177fbe180c930d6aaa142fbc0d840c538e24025f218" %}
+{% set version = "1.0.5.1" %}
+{% set sha256 = "62164da166924b4920f1c134f3b8ac4637c09ce59aa30572f8226a5fd160f8bd" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   #skip: True  # [win]
   noarch: python
 
