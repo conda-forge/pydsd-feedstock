@@ -5,7 +5,7 @@ Home: http://github.com/josephhardinee/PyDSD
 
 Package license: GPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Library for working with Disdrometer data, particle probes, and drop size distributions.
 
